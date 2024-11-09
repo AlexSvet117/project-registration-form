@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="registration-form">
+        <!-- Login -->
+        <div class="login">
+            <img class="image" src="/assets/yollo-logo.svg" alt="Yollo Logo" class="logo">
+            <p class="welcome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex asperiores possimus
+                necessitatibus ad et, repellendus consectetur vero dolore recusandae distinctio, labore fuga velit
+                placeat quo? Laudantium facere non laborum voluptatem iste, ea consectetur numquam libero expedita.
+                Quasi deserunt provident quaerat, eligendi, nihil quia beatae modi amet facilis tempore alias.</p>
+            <button type="button">Login</button>
+            <!-- Login End -->
+        </div>
+
+        <!-- Registration Form -->
+        <div class="registration">
+            <h1>Registration Form</h1>
+            <form>
+                <div class="first-last-name">
+                    <!-- First name -->
+                    <label for="first-name">First Name</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder="" required><br>
+                    <!-- Last name -->
+                    <label for="last-name">Last Name</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder="" required><br>
+                </div>
+                <div class="email-password">
+                    <!-- email -->
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" placeholder="" required><br>
+                    <!-- password -->
+                    <label for="password">Password</label><br>
+                    <input type="text" id="password" name="password" placeholder="" required><br>
+
+                    <!-- checkbox -->
+                    <input type="checkbox" id="checkbox" name="checkbox" placeholder="" required>I agree with the <a
+                        href="#">terms and conditions</a><br>
+                    <label for="checkbox" style="display: inline"></label>
+                    <br>
+                    <!-- register -->
+                    <button type="button">Register</button>
+                </div>
+            </form>
+        <!-- End of Registration form -->
+        </div>
+    </div>
+</body>
+
+</html>
