@@ -11,15 +11,27 @@ body{
 
 .registration-form{
     display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    flex-direction: row;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px gray;
 }
 
 .login{
     background-color: rgb(227, 224, 224);
-    padding: 20px;
+    padding: 30px;
+    flex-basis: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .registration{
-    padding: 20px;
+    padding: 30px;
+    flex-basis: 60%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .image{
